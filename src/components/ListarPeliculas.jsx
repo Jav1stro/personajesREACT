@@ -3,7 +3,7 @@ import Card from './Card'
 
 function ListarPeliculas () {
     const [ personajes, setPersonajes ] = useState([]);
-
+// aaa
     useEffect(() => {
         fetch("https://www.breakingbadapi.com/api/characters?limit=25&offset=0")
         .then((response) => response.json())
