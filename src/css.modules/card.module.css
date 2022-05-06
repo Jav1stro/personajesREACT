@@ -1,0 +1,14 @@
+.card {
+    outline: thick double rgba(238, 69, 69);
+    display: inline-block;
+    /* grid-template-columns: 300px;
+    grid-template-rows:  50px; */
+    height: fit-content;
+    width:fit-content;
+    margin: 70px;
+    padding:20px;
+    margin-bottom:15px;
+    color:rgb(238, 69, 69); 
+  }
+  
+  

@@ -1,0 +1,17 @@
+.mainContainer{
+    background: rgba(238, 69, 69, 0.411);
+    margin: auto;
+    text-align:center;
+    align-items: center;
+    color: black;
+    width:80%;
+    outline: thick double rgba(238, 69, 69);
+    display:grid;
+
+}
+.cardsContainer{
+    margin-top:10px;
+    padding-top:50px;
+    align-items:right;
+  
+}
