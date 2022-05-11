@@ -1,14 +1,22 @@
 .card {
+  background: rgba(0, 0, 0, 0.39);
     outline: thick double rgba(238, 69, 69);
     display: inline-block;
-    /* grid-template-columns: 300px;
-    grid-template-rows:  50px; */
     height: fit-content;
-    width:fit-content;
-    margin: 70px;
-    padding:20px;
+    width:140px;
+    margin: 50px;
+    /* padding:20px; */
     margin-bottom:15px;
     color:rgb(238, 69, 69); 
+    animation: dropIn 3s ease forwards;
+  }
+@keyframes dropIn{
+  from{transform: translateY(-500px)};
+  to{transform: translateY(0)};
+}
+  .card:hover{
+    background-color: rgb(238, 69, 69,0.39);
+    color:black;
   }
   
   
