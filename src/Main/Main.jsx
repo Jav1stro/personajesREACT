@@ -15,7 +15,7 @@ function Main() {
   return (
     <div className={styles.mainContainer}>
         
-      <h2>PEPERsonajes</h2>
+      <h2>Perpersonajes</h2>
       <div className={styles.cardsContainer}>
       <button onClick={abrirModal}>abrir PERSONAJES</button>
         {/* No sé cómo meter un setTimeOut acá */}
