@@ -6,7 +6,6 @@ import Navbar from './Navbar/Navbar';
 function AppIndex() {
   return (
     <div className="App">
-     
       <Header />
       <Navbar />
       <Main />

@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 });
 
-app.get('/20',(req,res)=>{
+app.get('/dos',(req,res)=>{
     res.sendFile(path.join(__dirname,'pag2.js'))
 
 });
