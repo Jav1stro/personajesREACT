@@ -2,11 +2,9 @@
   background: rgba(0, 0, 0, 0.39);
     outline: thick double rgba(238, 69, 69);
     display: inline-block;
-    height: fit-content;
+    height: 300px;
     width:140px;
-    margin: 50px;
-    /* padding:20px; */
-    margin-bottom:15px;
+    margin:20px;
     color:rgb(238, 69, 69); 
     animation: dropIn 3s ease forwards;
     box-shadow: 10px 3px 144px -3px rgb(255, 174, 0,0.3);
@@ -25,12 +23,9 @@
   font-size: 15px;
   color: rgb(255, 174, 0);
   text-align: center;
-  padding:10px;
+  /* padding:10px; */
   overflow:hidden;
 
 }
-.overflow{
 
-}
-  
   
