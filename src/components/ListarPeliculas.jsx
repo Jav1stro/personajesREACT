@@ -13,7 +13,7 @@ function ListarPeliculas () {
     <div >
     {personajes.map(personaje => {
       
-      return <Card id={personaje.char_id} nickname={personaje.nickname} length={personajes.length}/ >
+      return <Card id={personaje.char_id} nickname={personaje.nickname} occupation={personaje.occupation} / >
         ;
     })}
 

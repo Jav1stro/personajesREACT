@@ -1,9 +1,9 @@
 .mainContainer{
-    background: rgba(190, 172, 1, 0.411);
+    background: rgba(248, 49, 49, 0.719);
     margin: auto;
     text-align:center;
     align-items: center;
-    color: black;
+    color: rgb(255, 174, 0);
     width:80%;
     outline: thick double rgba(238, 69, 69);
     display:grid;
