@@ -15,7 +15,8 @@ function Main() {
   return (
     <div className={styles.mainContainer}>
         
-      <h2>Acá van ir los personajes, papáA</h2>
+      {/* <img src={'./personajes.png'}></img> */}
+      <h1>Personajes</h1>
       <div className={styles.cardsContainer}>
       <button onClick={abrirModal}>abrir PERSONAJES</button>
         {/* No sé cómo meter un setTimeOut acá */}
