@@ -11,12 +11,23 @@
     animation: dropIn 3s ease forwards;
   }
 @keyframes dropIn{
-  from{transform: translateY(-500px)};
+  from{transform: translateY(500px)};
   to{transform: translateY(0)};
 }
-  .card:hover{
+.card:hover{
     background-color: rgb(238, 69, 69,0.39);
     color:black;
-  }
+}
+.occupation{
+  font-size: 35px;
+  color: yellow;
+  text-align: center;
+  padding:10px;
+  overflow:hidden;
+
+}
+.overflow{
+
+}
   
   

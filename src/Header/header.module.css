@@ -4,5 +4,6 @@
     justify-content:center;
     align-items:center;
     margin: 0 100px;
-    color: black;
+    color: rgb(255, 174, 0);
+    outline: thick double rgba(238, 69, 69);
 }

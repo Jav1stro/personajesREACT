@@ -21,8 +21,9 @@ function Main() {
         {/* No sé cómo meter un setTimeOut acá */}
         {modal && (
           <div>
-            <button onClick={cerrarModal}>cerrar PERSONAJES</button>
+           
             <ListarPeliculas />
+            <button onClick={cerrarModal}>cerrar PERSONAJES</button>
           </div>
         )}
       </div>
